@@ -7,8 +7,8 @@ $secondary-color: #55DFB4;
 $third-color: #FB3B64;
 
 $rounded-corners: 40px;
-$h-font: "Raleway", serif;
-$p-font: "Open Sans", serif;
+$h-font: "Raleway";
+$p-font:"Open Sans";
 
 @mixin btn {
     border-radius: $rounded-corners;
@@ -18,6 +18,10 @@ $p-font: "Open Sans", serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    padding: 0.2em 0.4em ;
+    padding: 0.5em 1em ;
+    width: 10em;
 }
 
+@mixin tablet {
+    max-width: 600px;
+}

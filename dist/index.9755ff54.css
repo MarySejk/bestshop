@@ -1,4 +1,66 @@
-.logo {
+body {
+  color: #000;
+  font-family: Open Sans;
+}
+
+header {
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: Open Sans;
+  display: flex;
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.logo h1 {
   color: #08a6e4;
+  margin-left: 2em;
+  font-family: Raleway;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+ol {
+  display: flex;
+}
+
+ol li {
+  padding: 1em;
+  list-style: none;
+}
+
+ol li a {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+@media only screen and (width <= 400px) {
+  ol {
+    display: none;
+  }
+}
+
+.intro {
+  background-image: url("Background.b0093fb6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  height: 50em;
+  margin: 10em auto;
+  display: flex;
+}
+
+.btn {
+  color: #fff;
+  background-color: #08a6e4;
+  border: none;
+  border-radius: 40px;
+  justify-content: center;
+  width: 10em;
+  padding: .5em 1em;
+  font-weight: bold;
+  display: flex;
 }
 /*# sourceMappingURL=index.9755ff54.css.map */

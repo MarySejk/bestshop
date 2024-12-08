@@ -1,0 +1,15 @@
+.intro {
+    margin: 10em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50em;
+
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn {
+    @include btn;
+}
