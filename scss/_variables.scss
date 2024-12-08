@@ -1,0 +1,23 @@
+
+$main-color: #08A6E4;
+$text-primary-color: black;
+$text-secondary-color: #A5A5A5;
+$text-btn-color: white;
+$secondary-color: #55DFB4;
+$third-color: #FB3B64;
+
+$rounded-corners: 40px;
+$h-font: "Raleway", serif;
+$p-font: "Open Sans", serif;
+
+@mixin btn {
+    border-radius: $rounded-corners;
+    border: none;
+    background-color: $main-color;
+    color: $text-btn-color;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 0.2em 0.4em ;
+}
+
