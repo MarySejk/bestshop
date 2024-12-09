@@ -1,3 +1,22 @@
+h1 {
+  font-family: Raleway;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: Raleway;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+h3 {
+  letter-spacing: .5em;
+  font-family: Raleway;
+  font-size: 1em;
+  font-weight: bold;
+}
+
 body {
   color: #000;
   font-family: Open Sans;
@@ -14,9 +33,6 @@ header {
 .logo h1 {
   color: #08a6e4;
   margin-left: 2em;
-  font-family: Raleway;
-  font-size: 2.5em;
-  font-weight: lighter;
 }
 
 ol {
@@ -26,6 +42,10 @@ ol {
 ol li {
   padding: 1em;
   list-style: none;
+}
+
+ol li :hover {
+  border-bottom: solid #08a6e4;
 }
 
 ol li a {
@@ -48,7 +68,7 @@ ol li a {
   flex-direction: column;
   align-items: center;
   height: 50em;
-  margin: 10em auto;
+  margin: 5em auto;
   display: flex;
 }
 
@@ -59,8 +79,75 @@ ol li a {
   border-radius: 40px;
   justify-content: center;
   width: 10em;
-  padding: .5em 1em;
+  padding: 1em 1.5em;
   font-weight: bold;
   display: flex;
+}
+
+.about {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.about img {
+  width: 2.5em;
+}
+
+.about p {
+  color: #a5a5a5;
+}
+
+.circles {
+  flex-direction: column;
+  display: flex;
+}
+
+@media only screen and (width >= 400px) {
+  .circles {
+    flex-direction: row;
+  }
+}
+
+.first-circle, .second-circle, .third-circle {
+  flex-direction: column;
+  align-items: center;
+  width: 33.3%;
+  margin: .5em;
+  padding: 2em;
+  display: flex;
+}
+
+.first-circle img, .second-circle img, .third-circle img {
+  position: relative;
+}
+
+.first-circle:before {
+  content: "";
+  background-color: #fb3b64;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+}
+
+.second-circle:before {
+  content: "";
+  background-color: #08a6e4;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+}
+
+.third-circle:before {
+  content: "";
+  background-color: #55dfb4;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
 }
 /*# sourceMappingURL=index.9755ff54.css.map */

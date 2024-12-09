@@ -1,0 +1,68 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+
+    img {
+        width: 2.5em;
+    }
+
+    p {
+        color: $text-secondary-color;
+
+    }
+}
+
+.circles {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: 400px) {
+        flex-direction: row;
+
+    }
+}
+
+.first-circle,
+.second-circle,
+.third-circle {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    padding: 2em;
+    margin: 0.5em;
+    align-items: center;
+    img { 
+    position: relative;}
+
+}
+
+.first-circle::before {
+    background-color: $third-color;
+    content: "";
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.second-circle::before {
+    background-color: $main-color;
+    content: "";
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.third-circle::before {
+    background-color: $secondary-color;
+    content: "";
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    position: absolute;
+}

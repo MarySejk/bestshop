@@ -18,10 +18,27 @@ $p-font:"Open Sans";
     font-weight: bold;
     display: flex;
     justify-content: center;
-    padding: 0.5em 1em ;
+    padding: 1em 1.5em ;
     width: 10em;
 }
 
 @mixin tablet {
     max-width: 600px;
+}
+
+h1 {font-family: $h-font;
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: $h-font;
+    font-weight: normal;
+    font-size: 2em;
+}
+h3 {
+    font-family: $h-font;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.5em;
 }
