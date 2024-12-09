@@ -1,0 +1,95 @@
+.paragraphs {
+    background-color: $second-background;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-p,
+.second-p,
+.third-p {
+    background-color: white;
+    margin: 2em 5em;
+    padding: 2em 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid $border-color;
+    position: relative;
+
+    @media only screen and (min-width: 400px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 10em;
+        position: relative;
+        z-index: 2;
+    }
+
+    .p-second-col::after {
+        content: "";
+        background-color: $main-color;
+        width: 15em;
+        height: 0.4em;
+        position: absolute;
+        z-index: 1;
+
+    }
+
+}
+
+.first-p img::before {
+    content: "";
+    background-color: $third-color;
+    width: 30em;
+    height: 30em;
+    display: block;
+    border-radius: 40px;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.third-col {
+    
+    position: relative;
+
+    .p-second-col::after {
+        content: "";
+        background-color: $secondary-color;
+        width: 15em;
+        height: 0.4em;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .p-second-col {
+        background-color: white;
+        margin: 2em 5em;
+        padding: 2em;
+        padding-right: 30em;
+        border-radius: 5px;
+        border: 1px solid $border-color;
+    }
+
+    @media only screen and (min-width: 400px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+}
+
+.trumpet-col {
+    background-color: $secondary-color;
+    margin: 2em auto;
+    margin-right: 5em;
+    padding: 2em;
+    
+}

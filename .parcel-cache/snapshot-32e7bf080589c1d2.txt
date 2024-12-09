@@ -1,12 +1,14 @@
-4328
+4332
 48/home/marie-sejkorova/project/bestshop/README.md1733669466013876981 0
 56/home/marie-sejkorova/project/bestshop/images/iPhone.png1576598646000000000 0
 60/home/marie-sejkorova/project/bestshop/images/Phone Icon.svg1576598646000000000 0
 58/home/marie-sejkorova/project/bestshop/images/Facebook.svg1576598646000000000 0
 57/home/marie-sejkorova/project/bestshop/images/Macbook.png1576598646000000000 0
-62/home/marie-sejkorova/project/bestshop/dist/index.9755ff54.css1733749440442712803 0
-60/home/marie-sejkorova/project/bestshop/dist/Eye.10263c42.svg1733749429658548081 0
-64/home/marie-sejkorova/project/bestshop/dist/Catalog.5ebe22b4.svg1733749429658548081 0
+62/home/marie-sejkorova/project/bestshop/dist/index.9755ff54.css1733755588457312911 0
+60/home/marie-sejkorova/project/bestshop/dist/Eye.10263c42.svg1733755547717641311 0
+64/home/marie-sejkorova/project/bestshop/dist/Catalog.5ebe22b4.svg1733755547701641047 0
+64/home/marie-sejkorova/project/bestshop/dist/Trumpet.d291d6ae.png1733755547713641245 0
+64/home/marie-sejkorova/project/bestshop/dist/Macbook.a5eb91ef.png1733755547714641261 0
 55/home/marie-sejkorova/project/bestshop/scss/_about.scss1733749440359711537 0
 55/home/marie-sejkorova/project/bestshop/scss/_intro.scss1733747767279093450 0
 118/home/marie-sejkorova/project/bestshop/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/node.abi115.musl.node1733669660133927221 0
@@ -572,7 +574,7 @@
 91/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/lib/dumpGraphToGraphViz.js1733669662134959626 0
 86/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/lib/Transformation.js1733669662609967321 0
 78/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/lib/Parcel.js1733669662379963595 0
-43/home/marie-sejkorova/project/bestshop/scss1733747547611763168 1
+43/home/marie-sejkorova/project/bestshop/scss1733749680844315418 1
 88/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/lib/UncommittedAsset.js1733669662650967985 0
 82/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/lib/buildCache.js1733669661967956921 0
 81/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/lib/constants.js1733669662111959253 0
@@ -687,7 +689,7 @@
 97/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/src/public/MutableBundleGraph.js1733669662338962931 0
 92/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/src/public/PluginOptions.js1733669662438964551 0
 85/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/src/public/Config.js1733669662098959043 0
-68/home/marie-sejkorova/project/bestshop/dist/bestshop.3464ddca.js.map1733749429663548157 0
+68/home/marie-sejkorova/project/bestshop/dist/bestshop.3464ddca.js.map1733755547720641360 0
 90/home/marie-sejkorova/project/bestshop/node_modules/@parcel/utils/src/isDirectoryInside.js1733669662158960015 0
 90/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/src/public/Environment.js1733669662195960614 0
 95/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/src/TargetDescriptor.schema.js1733669662547966317 0
@@ -949,7 +951,7 @@
 114/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_class_static_private_field_update/package.json1733669662744969508 0
 88/home/marie-sejkorova/project/bestshop/node_modules/@parcel/package-manager/src/utils.js1733669661862955220 0
 85/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_apply_decs_2203_r1733669662428964389 1
-43/home/marie-sejkorova/project/bestshop/dist1733749440443712819 1
+43/home/marie-sejkorova/project/bestshop/dist1733755588459312944 1
 105/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_async_generator_delegate/package.json1733669662461964924 0
 102/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_sliced_to_array_loose/package.json1733669663191976751 0
 84/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_jsx/package.json1733669663111975454 0
@@ -1055,7 +1057,7 @@
 66/home/marie-sejkorova/project/bestshop/dist/index.c1b4d8c2.css.map1733675428313756674 0
 110/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_tagged_template_literal_loose/package.json1733669663208977026 0
 97/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_tagged_template_literal_loose1733669663206976994 1
-67/home/marie-sejkorova/project/bestshop/dist/Background.b0093fb6.png1733749429666548203 0
+67/home/marie-sejkorova/project/bestshop/dist/Background.b0093fb6.png1733755547726641459 0
 96/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_new_arrow_check/package.json1733669663118975568 0
 83/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_new_arrow_check1733669663117975551 1
 59/home/marie-sejkorova/project/bestshop/images/Mail Icon.svg1576598646000000000 0
@@ -1332,7 +1334,7 @@
 53/home/marie-sejkorova/project/bestshop/images/Eye.svg1576598646000000000 0
 80/home/marie-sejkorova/project/bestshop/node_modules/@parcel/resolver-default/src1733669660336930508 1
 71/home/marie-sejkorova/project/bestshop/node_modules/semver/package.json1733669661773953779 0
-59/home/marie-sejkorova/project/bestshop/scss/_variables.scss1733747524472513078 0
+59/home/marie-sejkorova/project/bestshop/scss/_variables.scss1733755060004699387 0
 129/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-no-engines1733669662774969994 1
 83/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/regions/PW.js1733669663581983070 0
 83/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/regions/TG.js1733669663688984804 0
@@ -1401,6 +1403,7 @@
 90/home/marie-sejkorova/project/bestshop/node_modules/@parcel/transformer-babel/lib/utils.js1733669661350946928 0
 88/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/src/_inherits_loose.mjs1733669663467981223 0
 93/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/input-event.js1733669663181976589 0
+63/home/marie-sejkorova/project/bestshop/dist/iPhone.65a507eb.png1733755547716641295 0
 69/home/marie-sejkorova/project/bestshop/node_modules/globals/readme.md1733669660203928354 0
 62/home/marie-sejkorova/project/bestshop/node_modules/semver/bin1733669661634951527 1
 74/home/marie-sejkorova/project/bestshop/node_modules/@swc/core/package.json1733669661354946992 0
@@ -1506,7 +1509,7 @@
 61/home/marie-sejkorova/project/bestshop/node_modules/@lezer/lr1733669660764937438 1
 83/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/regions/KY.js1733669663279978177 0
 82/home/marie-sejkorova/project/bestshop/node_modules/sass/types/value/function.d.ts1733669662686968569 0
-54/home/marie-sejkorova/project/bestshop/scss/_main.scss1733747565806960392 0
+54/home/marie-sejkorova/project/bestshop/scss/_main.scss1733749709741741014 0
 77/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/lib/requests1733669662700968795 1
 104/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/css-background-offsets.js1733669662273961878 0
 107/home/marie-sejkorova/project/bestshop/node_modules/posthtml/node_modules/dom-serializer/lib/index.d.ts.map1733669660765937454 0
@@ -1571,7 +1574,7 @@
 83/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/regions/SA.js1733669663609983524 0
 83/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/regions/CH.js1733669662119959383 0
 83/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/regions/AG.js1733669661362947122 0
-66/home/marie-sejkorova/project/bestshop/dist/index.bded0449.css.map1733749429663548157 0
+66/home/marie-sejkorova/project/bestshop/dist/index.bded0449.css.map1733755547722641393 0
 80/home/marie-sejkorova/project/bestshop/node_modules/@parcel/transformer-svg/test1733669660841938685 1
 83/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/regions/NL.js1733669663495981677 0
 75/home/marie-sejkorova/project/bestshop/node_modules/node-addon-api/index.js1733669661543950054 0
@@ -1711,7 +1714,7 @@
 94/home/marie-sejkorova/project/bestshop/node_modules/posthtml/node_modules/posthtml-parser/dist1733669660143927383 1
 102/home/marie-sejkorova/project/bestshop/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers1733669660216928565 1
 71/home/marie-sejkorova/project/bestshop/node_modules/weak-lru-cache/dist1733669659695920130 1
-66/home/marie-sejkorova/project/bestshop/dist/index.9755ff54.css.map1733749440443712819 0
+66/home/marie-sejkorova/project/bestshop/dist/index.9755ff54.css.map1733755588459312944 0
 76/home/marie-sejkorova/project/bestshop/node_modules/@parcel/packager-raw/src1733669660395931463 1
 121/home/marie-sejkorova/project/bestshop/node_modules/msgpackr-extract/node_modules/node-gyp-build-optional-packages/bin.js1733669659769921328 0
 83/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_super_prop_base1733669663200976897 1
@@ -1733,7 +1736,7 @@
 62/home/marie-sejkorova/project/bestshop/node_modules/parcel/lib1733669660996941194 1
 83/home/marie-sejkorova/project/bestshop/node_modules/@parcel/runtime-js/package.json1733669661871955366 0
 119/home/marie-sejkorova/project/bestshop/node_modules/msgpackr-extract/node_modules/.bin/node-gyp-build-optional-packages1733669667664049255 0
-64/home/marie-sejkorova/project/bestshop/dist/bestshop.3464ddca.js1733749429658548081 0
+64/home/marie-sejkorova/project/bestshop/dist/bestshop.3464ddca.js1733755547713641245 0
 88/home/marie-sejkorova/project/bestshop/node_modules/@parcel/diagnostic/lib/diagnostic.js1733669660907939753 0
 91/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/dom-range.js1733669662731969298 0
 82/home/marie-sejkorova/project/bestshop/node_modules/@parcel/core/src/assetUtils.js1733669661963956856 0
@@ -1943,7 +1946,7 @@
 71/home/marie-sejkorova/project/bestshop/node_modules/type-fest/base.d.ts1733669660200928306 0
 73/home/marie-sejkorova/project/bestshop/node_modules/resolve-from/index.js1733669659756921118 0
 72/home/marie-sejkorova/project/bestshop/node_modules/ordered-binary/tests1733669660135927253 1
-56/home/marie-sejkorova/project/bestshop/scss/_header.scss1733747450084716676 0
+56/home/marie-sejkorova/project/bestshop/scss/_header.scss1733755084042084950 0
 95/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/css-scrollbar.js1733669662526965977 0
 73/home/marie-sejkorova/project/bestshop/node_modules/@parcel/optimizer-swc1733669660739937033 1
 97/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/async-clipboard.js1733669661826954637 0
@@ -2486,7 +2489,7 @@
 61/home/marie-sejkorova/project/bestshop/node_modules/env-paths1733669659884923190 1
 93/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/textcontent.js1733669663687984788 0
 109/home/marie-sejkorova/project/bestshop/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mtest4.c1733669662161960063 0
-62/home/marie-sejkorova/project/bestshop/dist/index.bded0449.css1733749429658548081 0
+62/home/marie-sejkorova/project/bestshop/dist/index.bded0449.css1733755547717641311 0
 93/home/marie-sejkorova/project/bestshop/node_modules/@parcel/utils/test/input/config/config.js1733669661399947721 0
 96/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/feature-policy.js1733669662766969865 0
 68/home/marie-sejkorova/project/bestshop/node_modules/sass/types/value1733669662731969298 1
@@ -2509,7 +2512,7 @@
 87/home/marie-sejkorova/project/bestshop/node_modules/sass/types/value/argument_list.d.ts1733669662622967532 0
 75/home/marie-sejkorova/project/bestshop/node_modules/is-extglob/package.json1733669659698920179 0
 83/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/regions/JP.js1733669663232977415 0
-49/home/marie-sejkorova/project/bestshop/index.html1733747919602297457 0
+49/home/marie-sejkorova/project/bestshop/index.html1733753927405776283 0
 105/home/marie-sejkorova/project/bestshop/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest_enc2.c1733669662124959464 0
 86/home/marie-sejkorova/project/bestshop/node_modules/cosmiconfig/dist/ExplorerBase.d.ts1733669661766953665 0
 72/home/marie-sejkorova/project/bestshop/node_modules/semver/bin/semver.js1733669661656951884 0
@@ -3461,7 +3464,7 @@
 108/home/marie-sejkorova/project/bestshop/node_modules/@parcel/package-manager/test/fixtures/empty/package.json1733669661911956014 0
 83/home/marie-sejkorova/project/bestshop/node_modules/semver/ranges/to-comparators.js1733669661745953325 0
 77/home/marie-sejkorova/project/bestshop/node_modules/dotenv-expand/config.d.ts1733669661180944174 0
-63/home/marie-sejkorova/project/bestshop/dist/Person.880b4a19.svg1733749429658548081 0
+63/home/marie-sejkorova/project/bestshop/dist/Person.880b4a19.svg1733755547689640850 0
 97/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/css-transitions.js1733669662573966738 0
 74/home/marie-sejkorova/project/bestshop/node_modules/to-regex-range/LICENSE1733669659819922137 0
 98/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/css-supports-api.js1733669662541966219 0
@@ -3486,6 +3489,7 @@
 109/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/data/features/url-scroll-to-text-fragment.js1733669663714985226 0
 80/home/marie-sejkorova/project/bestshop/node_modules/color-convert/conversions.js1733669659868922931 0
 82/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/cjs/_identity.cjs1733669661831954718 0
+60/home/marie-sejkorova/project/bestshop/scss/_paragraphs.scss1733755588349311129 0
 108/home/marie-sejkorova/project/bestshop/node_modules/@parcel/utils/test/input/sourcemap/referenced-min.js.map1733669662643967872 0
 83/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/_/_read_only_error1733669663166976346 1
 103/home/marie-sejkorova/project/bestshop/node_modules/@swc/helpers/src/_unsupported_iterable_to_array.mjs1733669663527982195 0
@@ -3680,7 +3684,7 @@
 79/home/marie-sejkorova/project/bestshop/node_modules/semver/ranges/intersects.js1733669661171944029 0
 86/home/marie-sejkorova/project/bestshop/node_modules/caniuse-lite/dist/lib/supported.js1733669663663984399 0
 72/home/marie-sejkorova/project/bestshop/node_modules/semver/ranges/ltr.js1733669661343946814 0
-54/home/marie-sejkorova/project/bestshop/dist/index.html1733749429658548081 0
+54/home/marie-sejkorova/project/bestshop/dist/index.html1733755547709641179 0
 76/home/marie-sejkorova/project/bestshop/node_modules/js-yaml/lib/type/bool.js1733669659945924177 0
 83/home/marie-sejkorova/project/bestshop/node_modules/semver/ranges/max-satisfying.js1733669661384947478 0
 75/home/marie-sejkorova/project/bestshop/node_modules/semver/ranges/subset.js1733669661733953131 0

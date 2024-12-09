@@ -5,6 +5,8 @@ $text-secondary-color: #A5A5A5;
 $text-btn-color: white;
 $secondary-color: #55DFB4;
 $third-color: #FB3B64;
+$second-background: #F7F7F7;
+$border-color: #E8E9ED;
 
 $rounded-corners: 40px;
 $h-font: "Raleway";
@@ -19,12 +21,14 @@ $p-font:"Open Sans";
     display: flex;
     justify-content: center;
     padding: 1em 1.5em ;
-    width: 10em;
+    width: 20em;
 }
 
 @mixin tablet {
     max-width: 600px;
 }
+
+* {box-sizing: border-box;}
 
 h1 {font-family: $h-font;
     font-weight: normal;
