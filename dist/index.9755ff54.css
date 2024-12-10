@@ -2,12 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
 h1 {
   font-family: Raleway;
   font-size: 2.5em;
@@ -27,14 +21,28 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  margin: 0;
+  font-family: Raleway;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h5 {
+  margin: 0;
+  font-family: Open Sans;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
 body {
   color: #000;
+  width: 100%;
   font-family: Open Sans;
 }
 
 header {
   justify-content: space-between;
-  width: 100vh;
   margin: 0 auto;
   font-family: Open Sans;
   display: flex;
@@ -87,6 +95,7 @@ ol li a {
 
 .btn {
   color: #fff;
+  cursor: pointer;
   background-color: #08a6e4;
   border: none;
   border-radius: 40px;
@@ -177,7 +186,7 @@ ol li a {
   display: flex;
 }
 
-.first-p, .second-p, .third-p {
+.first-p, .second-p {
   background-color: #fff;
   border: 1px solid #e8e9ed;
   border-radius: 5px;
@@ -192,23 +201,23 @@ ol li a {
 }
 
 @media only screen and (width >= 400px) {
-  .first-p, .second-p, .third-p {
+  .first-p, .second-p {
     flex-direction: row;
     justify-content: space-between;
   }
 }
 
-.first-p img, .second-p img, .third-p img {
+.first-p img, .second-p img {
   z-index: 2;
   width: 15em;
   position: relative;
 }
 
-.first-p .p-second-col, .second-p .p-second-col, .third-p .p-second-col {
+.first-p .p-second-col, .second-p .p-second-col {
   width: 50%;
 }
 
-.first-p .p-second-col:after, .second-p .p-second-col:after, .third-p .p-second-col:after {
+.first-p .p-second-col:after, .second-p .p-second-col:after {
   content: "";
   z-index: 1;
   background-color: #08a6e4;
@@ -241,17 +250,16 @@ ol li a {
   position: absolute;
 }
 
-.third-col {
+.third-p {
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 1em;
-  margin: 2em auto;
-  padding: 2em 5em;
+  width: 50em;
+  margin: 0 auto;
   display: flex;
 }
 
-.third-col .p-second-col:after {
+.third-p .p-second-col:after {
   content: "";
   z-index: 1;
   background-color: #55dfb4;
@@ -260,7 +268,7 @@ ol li a {
   position: absolute;
 }
 
-.third-col .p-second-col {
+.third-p .p-second-col {
   background-color: #fff;
   border: 1px solid #e8e9ed;
   border-radius: 5px;
@@ -269,25 +277,138 @@ ol li a {
   padding: 2em;
 }
 
-.third-col .trumpet-col {
+.third-p .trumpet-col {
   background-color: #55dfb4;
+  border-radius: 5px;
   justify-content: center;
   align-items: center;
   width: 25em;
   margin: 2em auto;
-  padding: 2em 5em;
+  padding: 2em;
   display: flex;
 }
 
-.third-col .trumpet-col img {
+.third-p .trumpet-col img {
   width: 14.5em;
 }
 
 @media only screen and (width >= 400px) {
-  .third-col {
+  .third-p {
     flex-direction: row-reverse;
     justify-content: space-between;
     display: flex;
   }
+}
+
+.pricing {
+  flex-direction: column;
+  align-items: center;
+  width: 50em;
+  margin: 0 auto;
+  display: flex;
+}
+
+.columns {
+  flex-direction: column;
+  display: flex;
+}
+
+@media only screen and (width >= 400px) {
+  .columns {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+  }
+}
+
+.column {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5em auto;
+  padding: 2em;
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (width >= 400px) {
+  .column {
+    flex-direction: column;
+    gap: 1.2em;
+  }
+}
+
+.column .title {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.column .title p {
+  font-size: .6em;
+  font-weight: bold;
+}
+
+.column ol {
+  flex-direction: column;
+  display: flex;
+}
+
+.column ol img {
+  padding-right: .5em;
+}
+
+.column ol li {
+  padding: .5em;
+}
+
+.basic {
+  border: .1em solid #fb3b64;
+  border-radius: 40px;
+}
+
+.basic .btn {
+  background-color: #fb3b64;
+  width: 100%;
+  position: absolute;
+  top: 90%;
+}
+
+.basic h5 {
+  color: #fb3b64;
+}
+
+.professional {
+  border: .1em solid #08a6e4;
+  border-radius: 40px;
+  box-shadow: 5px 10px 27px #07ace629;
+}
+
+.professional .btn {
+  background-color: #08a6e4;
+  width: 100%;
+  position: absolute;
+  top: 90%;
+}
+
+.professional h5 {
+  color: #08a6e4;
+}
+
+.premium {
+  border: .1em solid #55dfb4;
+  border-radius: 40px;
+}
+
+.premium .btn {
+  background-color: #55dfb4;
+  width: 100%;
+  position: absolute;
+  top: 90%;
+}
+
+.premium h5 {
+  color: #55dfb4;
 }
 /*# sourceMappingURL=index.9755ff54.css.map */

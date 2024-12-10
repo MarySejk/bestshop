@@ -22,23 +22,15 @@ $container-width: 50em;
     justify-content: center;
     padding: 1em 1.5em;
     width: 20em;
+    cursor: pointer;
 }
+
 
 
 
 * {
     box-sizing: border-box;
     }
-
-body {
-
-    margin: 0;
-    /* Zajistíme, že na body nebude žádný margin */
-    padding: 0;
-    /* Ujistíme se, že na body není žádný padding */
-    overflow-x: hidden;
-    /* Zabráníme horizontálnímu scrollování */
-}
 
 h1 {
     font-family: $h-font;
@@ -57,4 +49,18 @@ h3 {
     font-weight: bold;
     font-size: 1em;
     letter-spacing: 0.5em;
+}
+
+h4 {
+    font-family: $h-font;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+    }
+
+h5 {
+    font-family: $p-font;
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin: 0;
 }
