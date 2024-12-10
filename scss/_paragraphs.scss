@@ -11,8 +11,8 @@
 .second-p,
 .third-p {
     background-color: white;
-    margin: 2em 5em;
-    padding: 2em 30em;
+    margin: 2em auto;
+    padding: 2em 5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +20,7 @@
     border-radius: 5px;
     border: 1px solid $border-color;
     position: relative;
+    width: $container-width;
 
     @media only screen and (min-width: 400px) {
         flex-direction: row;
@@ -27,11 +28,16 @@
     }
 
     img {
-        width: 10em;
+        width: 15em;
         position: relative;
         z-index: 2;
     }
 
+    .p-second-col {
+        width: 50%;
+    }
+
+    /*čára pod odstavcem*/
     .p-second-col::after {
         content: "";
         background-color: $main-color;
@@ -39,27 +45,47 @@
         height: 0.4em;
         position: absolute;
         z-index: 1;
-
     }
-
 }
 
-.first-p img::before {
+.first-p .p-second-col::after {
+    background-color: $third-color;
+}
+
+/*pseudoelment, zatím nefunguje */
+.first-p .p-first-col img::before {
     content: "";
     background-color: $third-color;
-    width: 30em;
-    height: 30em;
-    display: block;
+    width: 20em;
+    height: 20em;
+
     border-radius: 40px;
     position: absolute;
     transform: rotate(45deg);
     z-index: 1;
 }
 
-.third-col {
-    
-    position: relative;
+/*pseudoelment, zatím nefunguje */
+.notebook::before {
+    content: "";
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: $main-color;
+    position: absolute;
+}
 
+/*treti odstavec s trumpetou*/
+.third-col {
+    gap: 1em;
+    margin: 2em auto;
+    padding: 2em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /*čára za odstavcem*/
     .p-second-col::after {
         content: "";
         background-color: $secondary-color;
@@ -71,11 +97,24 @@
 
     .p-second-col {
         background-color: white;
-        margin: 2em 5em;
+        margin: 2em auto;
         padding: 2em;
-        padding-right: 30em;
+        width: calc($container-width*0.5);
         border-radius: 5px;
         border: 1px solid $border-color;
+    }
+    .trumpet-col {
+        background-color: $secondary-color;
+        margin: 2em auto;
+        padding: 2em 5em;
+        width: calc($container-width*0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        img {
+            width: 14.5em;
+        }
     }
 
     @media only screen and (min-width: 400px) {
@@ -86,10 +125,3 @@
 
 }
 
-.trumpet-col {
-    background-color: $secondary-color;
-    margin: 2em auto;
-    margin-right: 5em;
-    padding: 2em;
-    
-}
