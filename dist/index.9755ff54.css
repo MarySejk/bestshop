@@ -411,4 +411,132 @@ ol li a {
 .premium h5 {
   color: #55dfb4;
 }
+
+.questions {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50em;
+  margin: 5em auto;
+  display: flex;
+}
+
+@media only screen and (width >= 400px) {
+  .questions {
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .questions .q-first-col {
+    justify-content: flex-start;
+    width: 50%;
+  }
+}
+
+.q-first-col {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.q-first-col :first-child {
+  margin: .2em;
+}
+
+.contact {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1em;
+  padding: 1em 0;
+  display: flex;
+}
+
+@media only screen and (width >= 400px) {
+  .contact {
+    flex-direction: row;
+  }
+}
+
+.contact .email, .contact .phone {
+  justify-content: flex-start;
+  gap: .5em;
+  display: flex;
+}
+
+.contact .email img, .contact .phone img {
+  width: 2em;
+}
+
+.contact .email p, .contact .phone p {
+  color: #a5a5a5;
+}
+
+.name-email {
+  flex-direction: column;
+  display: flex;
+}
+
+.name-email label {
+  color: #08a6e4;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  padding: 1em 0;
+  font-weight: bold;
+}
+
+.name-email input {
+  border: none;
+  border-bottom: .2em solid #a5a5a5;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.check {
+  color: #a5a5a5;
+  margin-bottom: 2em;
+  position: relative;
+}
+
+.check .checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.check input {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.check input:checked ~ .checkbox {
+  background-image: url("Checkmark.5be52c02.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.check .checkbox {
+  background-color: #fff;
+  border: .1em solid #a5a5a5;
+  border-radius: 4px;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkbox {
+  cursor: pointer;
+  margin-bottom: 12px;
+  padding-left: 35px;
+  font-size: 1.375rem;
+  display: block;
+  position: relative;
+}
 /*# sourceMappingURL=index.9755ff54.css.map */
