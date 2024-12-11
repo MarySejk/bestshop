@@ -1,0 +1,30 @@
+footer {
+    box-shadow: 0px -5px 40px #00000029;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    width: 100%;
+
+    .f-logo {
+        margin: 1em 2em;
+        h1{
+            color: $main-color;
+        }
+    }
+
+    p {
+        color: $text-secondary-color;
+    }
+
+    .f-icon {
+        display: flex;
+        margin: 2em;
+        gap: 1em;
+        align-items: center;
+        img {
+            width: 2.5em;
+            height: 2.5em;
+            }
+    }
+}
